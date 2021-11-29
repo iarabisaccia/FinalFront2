@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
-@media (min-width: 375px) {
 
 * {
     margin: 0px;
@@ -336,10 +335,4 @@ a {
     padding: 30px;
 
     color: #8C8C94;
-}
-
-}
-
-@media (max-width: 1440) {
-    
 }
