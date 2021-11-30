@@ -39,7 +39,13 @@ header {
     border-radius: 50px;
 }
 
-.btn0>a:visited {
+.btn0>a:hover {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn0>a:active {
     background-color: #FFFFFF;
     color: #F3603B;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -55,12 +61,6 @@ header {
 
 .nav1 {
     display: none;
-}
-
-.btn>a:visited {
-    background-color: #FFFFFF;
-    color: #F3603B;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 header i{
@@ -118,6 +118,17 @@ header i{
     border-radius: 50px;
 }
 
+.btn>a:hover {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn>a:active {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
 
 h2 {
     padding-top: 15%;
@@ -245,7 +256,13 @@ h4 {
     border-radius: 50px;
 }
 
-.btn3>a:visited {
+.btn3>a:hover {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn3>a:active {
     background-color: #FFFFFF;
     color: #F3603B;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -290,7 +307,13 @@ h4 {
     border-radius: 50px
 }
 
-.btn4>a:visited {
+.btn4>a:hover {
+    color: #FFFFFF;
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+.btn4>a:active {
     color: #FFFFFF;
     background: #F3603B;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
@@ -320,6 +343,11 @@ footer>form>input {
     border: solid 1px #FFFFFF;
 }
 
+footer>form>input:focus {
+    color: #F3603B;
+    background-color: #FFFFFF;
+}
+
 .btn2 {
     font-family: Be Vietnam Pro;
     font-size: 13.1806px;
@@ -330,6 +358,11 @@ footer>form>input {
     background: #F3603B;
     border-radius: 50px;
     border: solid 1px #F3603B;
+}
+
+.btn2:focus {
+    color: #F3603B;
+    background: #fff;
 }
 
 .listas {
