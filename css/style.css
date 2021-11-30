@@ -6,12 +6,43 @@
     padding: 0px;
 }
 
-header img {
+.container2>p {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1 {
     width: 100px;
+}
+
+.img2 {
+    width: 20px;
 }
 
 .btn0>a {
     display: none;
+    padding: 10px;
+    width: 100px;
+    
+    font-family: Be Vietnam Pro;
+    font-size: 13.1806px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+}
+
+.btn0>a:visited {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 header {
@@ -26,8 +57,10 @@ header {
     display: none;
 }
 
-.btn>a {
-    display: none;
+.btn>a:visited {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 header i{
@@ -71,7 +104,7 @@ header i{
 }
 
 .btn>a {
-    padding: 15px;
+    padding: 10px;
     width: 100px;
     
     font-family: Be Vietnam Pro;
@@ -197,8 +230,8 @@ h4 {
 }
 
 .btn3>a {
-    padding: 5px;
-    width: 120px;
+    padding: 10px;
+    width: 100px;
     margin: 30px;
     
     font-family: Be Vietnam Pro;
@@ -212,11 +245,17 @@ h4 {
     border-radius: 50px;
 }
 
+.btn3>a:visited {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
 .father4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 500px;
 
     background: #F3613C;
@@ -249,6 +288,12 @@ h4 {
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 50px
+}
+
+.btn4>a:visited {
+    color: #FFFFFF;
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
 }
 
 footer {
@@ -352,6 +397,10 @@ a {
 
 @media (min-width: 376px) {
 
+.img2 {
+    display: none;
+}
+
 .father {
     display: flex;
     justify-content: space-between;
@@ -359,8 +408,8 @@ a {
     padding: 40px;
 }
 .father>img {
-    width: 160px;
-    height: 30px;
+    width: 140px;
+    height: 25px;
 }
 
 .nav1 {
@@ -388,25 +437,28 @@ a {
     display: flex;
 }
 
-.btn>a {
-    text-align: center;
-}
 
 .father1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 60px;
+    gap: 300px;
+    
 }
 
-.hijo1 {
-    display: flex;
-    flex-direction: column;
-    padding-right: 250px;
-    margin-right: 100px;
-    gap: 10px;
+.hijo>img {
     width: 400px;
+    left: 100x;
+}
+
+.hijo {
+    display: flex;
+    order: 2;
 }
 
 .hijo1>h1 {
+    font-size: 58px;
+    width: 500px;
     text-align: left;
     padding: 0px;
     margin: 0px;
@@ -416,15 +468,16 @@ a {
     text-align: left;
     padding: 0px;
     margin: 0px;
+    width: 405px;
 }
 
-.btn {
-    display: flex;
-    justify-content: flex-start;
+.btn>a {
+    display: block;
 }
 
 .father2 {
     display: flex;
+    justify-content: center;
     padding: 40px;
     margin: 20px;
 }
@@ -446,8 +499,7 @@ a {
 .hijo3 {
     padding: 70px;
     margin: 50px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    
 }
 
 .txt>span {
@@ -495,32 +547,37 @@ h3 {
     margin-right: 90px;
 }
 
+footer {
+    display: flex;
+}
+
 footer>form {
     display: flex;
     justify-content: flex-end;
-    
+    height: 45px;
+    order: 3;
+
 }
 
 .listas {
     display: flex;
     justify-content: center;
+    padding-top: 40px;
     gap: 300px;
+    order: 2;
 }
 
-.icons {
+.father5 {
     display: flex;
-    justify-content: flex-start;
-}
-
-.logo {
-    display: flex;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 30px;
+    order: 1;
 }
 
 .final {
-    display: flex;
-    justify-content: flex-end;
-    padding: 30px;
+    order: 4;
 }
 
 }
