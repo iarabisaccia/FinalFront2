@@ -324,6 +324,7 @@ h4 {
 
 footer {
     background: #1E1E26;
+    height: 100%;
 }
 
 .footer {
@@ -332,8 +333,8 @@ footer {
 
 footer>form {
     display: flex;
-    padding: 30px;
     gap: 10px;
+    padding: 20px;
 }
 
 .form {
@@ -375,6 +376,7 @@ footer>form {
 .listas {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 ul {
@@ -388,7 +390,6 @@ a {
 .list>ul>a>li {
     font-family: Be Vietnam Pro;
     font-size: 16px;
-    padding: 10px;
     list-style: none;
     margin-left: 30px;
 
@@ -398,7 +399,6 @@ a {
 .list2>ul>a>li {
     font-family: Be Vietnam Pro;
     font-size: 16px;
-    padding: 10px;
     list-style: none;
     margin-right: 30px;
 
@@ -602,27 +602,46 @@ footer {
 
 footer>form {
     display: flex;
-    justify-content: flex-end;
     height: 45px;
     order: 3;
     position: relative;
-    top: 10px;
-
+    padding: 0px;
+    left: 98px;
+    top: 36px;
 }
 
 .listas {
     display: flex;
-    justify-content: center;
-    padding-top: 40px;
+    align-items: center;
     order: 2;
+    gap: 149px;
+    margin-left: 10px;
+    padding: 0px;
 }
 
-.list {
-  width: 250px;
+.list>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list>ul>a>li {
+    margin: 0px;
 }
 
 .list2 {
-    width: 250px;
+    position: relative;
+    bottom: 21px;
+}
+
+.list2>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list2>ul>a>li {
+    margin: 0px;
 }
 
 .father5 {
@@ -638,8 +657,11 @@ footer>form {
     order: 4;
     position: relative;
     top: 120px;
-    right: 400px;
-    padding: 0px;
+    right: 169px;
+    margin: 0px;
+    padding: 30px;
+    width: 600px;
+    height: 0px;
 }
 
 }
