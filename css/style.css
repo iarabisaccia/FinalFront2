@@ -21,13 +21,16 @@ header {
 
 .img2 {
     width: 20px;
+    position: relative;
+    left: 180px;
 }
 
 .btn0>a {
     display: none;
     padding: 10px;
-    width: 100px;
-    
+    padding-left: 20px;
+    width: 85px;
+
     font-family: Be Vietnam Pro;
     font-size: 13.1806px;
     text-align: center;
@@ -147,7 +150,7 @@ h3 {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: -0.015em;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     width: 100%;
     background-color: #fdb9a87a;
@@ -272,7 +275,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 500px;
 
     background: #F3613C;
@@ -323,14 +326,17 @@ footer {
     background: #1E1E26;
 }
 
+.footer {
+    display: flex;
+}
+
 footer>form {
     display: flex;
-    justify-content: center;
-    padding: 40px;
+    padding: 30px;
     gap: 10px;
 }
 
-footer>form>input {
+.form {
     font-family: Be Vietnam Pro;
     font-size: 13.1806px;
     padding: 10px;
@@ -343,10 +349,11 @@ footer>form>input {
     border: solid 1px #FFFFFF;
 }
 
-footer>form>input:focus {
+.form:focus {
     color: #F3603B;
     background-color: #FFFFFF;
 }
+
 
 .btn2 {
     font-family: Be Vietnam Pro;
@@ -474,14 +481,15 @@ a {
 .father1 {
     display: flex;
     justify-content: center;
-    padding: 60px;
+    padding: 050px;
     gap: 300px;
     
 }
 
 .hijo>img {
-    width: 400px;
-    left: 100x;
+    position: relative;
+    right: 150px;
+    width: 350px;
 }
 
 .hijo {
@@ -504,8 +512,10 @@ a {
     width: 405px;
 }
 
-.btn>a {
-    display: block;
+.btn {
+    position: relative;
+    right: 190px;
+    margin: 10px;
 }
 
 .father2 {
@@ -515,7 +525,13 @@ a {
     margin: 20px;
 }
 
+h2 {
+    padding: 20px;
+}
+
 .hijo2>h2 {
+    position: relative;
+    right: 20px;
     text-align: left;
 }
 
@@ -530,8 +546,8 @@ a {
 }
 
 .hijo3 {
-    padding: 70px;
-    margin: 50px;
+    padding: 40px;
+    margin: 40px;
     
 }
 
@@ -589,6 +605,8 @@ footer>form {
     justify-content: flex-end;
     height: 45px;
     order: 3;
+    position: relative;
+    top: 10px;
 
 }
 
@@ -596,8 +614,15 @@ footer>form {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    gap: 300px;
     order: 2;
+}
+
+.list {
+  width: 250px;
+}
+
+.list2 {
+    width: 250px;
 }
 
 .father5 {
@@ -611,6 +636,10 @@ footer>form {
 
 .final {
     order: 4;
+    position: relative;
+    top: 120px;
+    right: 400px;
+    padding: 0px;
 }
 
 }
